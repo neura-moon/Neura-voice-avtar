@@ -16,6 +16,6 @@ startBtn.addEventListener('click', () => {
   recognition.onerror = (event) => {
     output.innerText = "❌ Error: " + event.error;
   };
-});ē
+});
 
 
